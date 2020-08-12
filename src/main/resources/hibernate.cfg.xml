@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+
+<hibernate-configuration>
+	<session-factory>
+		<mapping class="br.com.emerson.locauto.model.Agencia" />
+		<mapping class="br.com.emerson.locauto.model.Funcionario" />
+		<mapping class="br.com.emerson.locauto.model.Gerente" />
+		<mapping class="br.com.emerson.locauto.model.Locador" />
+		<mapping class="br.com.emerson.locauto.model.Veiculo" />
+		<mapping class="br.com.emerson.locauto.model.Carro" />
+		<mapping class="br.com.emerson.locauto.model.Motocicleta" />
+		<mapping class="br.com.emerson.locauto.model.Cliente" />
+		<mapping class="br.com.emerson.locauto.model.ClientePF" />
+		<mapping class="br.com.emerson.locauto.model.ClientePJ" />
+		<mapping class="br.com.emerson.locauto.model.Planos" />
+		<mapping class="br.com.emerson.locauto.model.PlanosCarro" />
+		<mapping class="br.com.emerson.locauto.model.PlanosMoto" />
+		<mapping class="br.com.emerson.locauto.model.Locacao" />
+		<mapping class="br.com.emerson.locauto.model.LocacaoClientePF" />
+		<mapping class="br.com.emerson.locauto.model.LocacaoClientePJ" />
+		
+		
+		
+	</session-factory>
+
+</hibernate-configuration>
+
+
